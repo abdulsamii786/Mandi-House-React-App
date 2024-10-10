@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 
 const Modal = ({ modal, setModal, data }) => {
-  const { image, details, strike, price, title, dishes } = data;
+  const [selectedImgData, setSelectedImgData] = useState(data);
+  const { image, details, strike, price, title } = selectedImgData;
+
+  const productGallery = (id) => {
+    const findItem = data.dishes.find((item) => item.id == id);
+    console.log(findItem);
+    setSelectedImgData(findItem);
+  };
+
+  useEffect(() => setSelectedImgData(data), [data]);
 
   return (
     <>
@@ -33,9 +42,17 @@ const Modal = ({ modal, setModal, data }) => {
                 </h4>
               </div>
               <p className="mt-3 text-gray-500 min-h-36">{details}</p>
-              <div className="flex justify-between ">
-                {dishes.map((item) => {
-                  return <img className="w-[120px]" src={item.image} key={item.id} alt="" />;
+              <div className="w-full flex gap-2 ">
+                {data.dishes.map((item) => {
+                  return (
+                    <img
+                      onClick={() => productGallery(item.id)}
+                      className="w-[120px] cursor-pointer"
+                      src={item.image}
+                      key={item.id}
+                      alt=""
+                    />
+                  );
                 })}
               </div>
             </div>

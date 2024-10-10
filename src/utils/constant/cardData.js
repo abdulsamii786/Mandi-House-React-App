@@ -10,30 +10,21 @@ export const popularItem = [
     dishes: [
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Spicy Chicken Meshwi (Single Skewer) | Beef Meshwi (Single Skewer) | Chicken Kafta (Single Skewer) | Mutton Kafta (Single Skewer)",
+        strike: "3000",
+        price: "2700",
+        title: "Mix Grill",
+        image: "/assets/imgs/mix-grill.webp",
         id: 1,
       },
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Spicy Chicken Meshwi (Double Skewer) | Beef Meshwi (Double Skewer) | Creamy Chicken Meshwi (Double Skewer) | Spicy BBQ Beef (Double Skewer) | Chicken Kafta (Double Skewer) | Mutton Kafta (Double Skewer)",
+        strike: "8200",
+        price: "7380",
+        title: "Mix Family Platter",
+        image: "/assets/imgs/mix-family-platter.webp",
         id: 2,
-      },
-      {
-        details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
-        id: 3,
       },
     ],
   },
@@ -47,30 +38,29 @@ export const popularItem = [
     id: 2,
     dishes: [
       {
-        details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
+        details: "A scrumptious serving of tender and juicy oven-cooked meat",
         strike: "2450",
         price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+        title: "Mutton Mandi",
+        image: "/assets/imgs/mutton-mandi.webp",
         id: 1,
       },
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Spicy charcoal grilled meat marinated in our special blend of zesty spices with topping of our renowned madbee sauce",
+        strike: "2700",
+        price: "2430",
+        title: "Mutton Madbee",
+        image: "/assets/imgs/mutton-madbee.webp",
         id: 2,
       },
       {
         details:
           "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+        strike: "1850",
+        price: "1665",
+        title: "Mutton Kafta Mandi",
+        image: "/assets/imgs/mutton-kafta-mandi.webp",
         id: 3,
       },
     ],
