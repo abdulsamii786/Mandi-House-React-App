@@ -42,12 +42,12 @@ const Modal = ({ modal, setModal, data }) => {
                 </h4>
               </div>
               <p className="mt-3 text-gray-500 min-h-36">{details}</p>
-              <div className="w-full flex gap-2 ">
+              <div className="w-full flex justify-between ">
                 {data.dishes.map((item) => {
                   return (
                     <img
                       onClick={() => productGallery(item.id)}
-                      className="w-[120px] cursor-pointer"
+                      className="w-[120px] cursor-pointer rounded-md hover:-translate-y-2 transition-all duration-[400ms]"
                       src={item.image}
                       key={item.id}
                       alt=""

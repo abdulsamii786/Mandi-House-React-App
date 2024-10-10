@@ -14,13 +14,9 @@ const Home = () => {
   const [isfilter, setIsFilter] = useState(popularItem[0]);
   const [isModal, setIsModal] = useState(false);
   return (
-    <div
-      style={{
-        backgroundImage: `url("${bannerImgs.bgImg}")`,
-      }}
-    >
+    <div>
       <ImageBanner src={bannerImgs.image1} />
-      <div className="flex gap-5 justify-center">
+      <div className="w-[80%] mx-auto flex gap-16 justify-center">
         {popularItem.map((item) => {
           return (
             <div key={item.id} onClick={() => findId(item.id)}>
@@ -29,6 +25,11 @@ const Home = () => {
           );
         })}
       </div>
+      <ImageBanner src={bannerImgs.image2} />
+      <ImageBanner src={bannerImgs.image3} />
+      <ImageBanner src={bannerImgs.image4} />
+      <ImageBanner src={bannerImgs.image5} />
+      <ImageBanner src={bannerImgs.image6} />
       <Modal modal={isModal} setModal={setIsModal} data={isfilter} />
     </div>
   );

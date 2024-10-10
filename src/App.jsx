@@ -1,9 +1,14 @@
 import React from "react";
 import Home from "./pages/Home";
+import { bannerImgs } from "./utils/constant/bannerImages";
 
 const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        backgroundImage: `url("${bannerImgs.bgImg}")`,
+      }}
+    >
       <Home />
     </div>
   );

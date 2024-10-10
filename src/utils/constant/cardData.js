@@ -10,12 +10,21 @@ export const popularItem = [
     dishes: [
       {
         details:
+          "Lebanese Chicken Meshwi (Double Skewer) | Spicy BBQ Beef (Double Skewer) | Chicken Kafta (Single Skewer) | Mutton Kafta (Single Skewer)",
+        strike: "4500",
+        price: "4050",
+        title: "Mix Meshwi Platter",
+        image: "/assets/imgs/mix-meshwi.webp",
+        id: 1,
+      },
+      {
+        details:
           "Spicy Chicken Meshwi (Single Skewer) | Beef Meshwi (Single Skewer) | Chicken Kafta (Single Skewer) | Mutton Kafta (Single Skewer)",
         strike: "3000",
         price: "2700",
         title: "Mix Grill",
         image: "/assets/imgs/mix-grill.webp",
-        id: 1,
+        id: 2,
       },
       {
         details:
@@ -24,7 +33,7 @@ export const popularItem = [
         price: "7380",
         title: "Mix Family Platter",
         image: "/assets/imgs/mix-family-platter.webp",
-        id: 2,
+        id: 3,
       },
     ],
   },
@@ -76,29 +85,29 @@ export const popularItem = [
     dishes: [
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Mandi House`s famouse cream and cheese filled inside and shredded filo pastry, cooked in butter and drizzled with sugar syrup",
+        strike: "950",
+        price: "855",
+        title: "Kunafa",
+        image: "/assets/imgs/kunafa.webp",
         id: 1,
       },
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Savor our Tres Leches: a luscious trio of milks saturating each bite, delivering an instant burst of creamy goodness to satisfy your sweet cravings!",
+        strike: "1050",
+        price: "945",
+        title: "Tres Leches",
+        image: "/assets/imgs/tres-leches.webp",
         id: 2,
       },
       {
         details:
-          "Succulent meat marinated and seasoned in aromatic herbs and spices",
-        strike: "2450",
-        price: "2205",
-        title: "Mutton Madfoon",
-        image: "/assets/imgs/mutton-madfoon.webp",
+          "Our Walnut brownie is the stepping stone , the building blocks to a variety of desserts. Serving hot with vanilla ice cream",
+        strike: "1100",
+        price: "990",
+        title: "Walnut Signature Brownie",
+        image: "/assets/imgs/walnut-brownie.webp",
         id: 3,
       },
     ],
