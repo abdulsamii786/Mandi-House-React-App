@@ -3,9 +3,9 @@ import React from "react";
 const Card = ({ data }) => {
   const { details, strike, price, title, image, id } = data;
   return (
-    <div className="h-[300px] w-[300px] rounded-md relative p-2 cursor-pointer hover:-translate-y-2 transition-all duration-[400ms]">
+    <div className="h-[280px] w-[300px] rounded-md relative p-2 cursor-pointer hover:-translate-y-2 transition-all duration-[400ms] m-2">
       <div
-        className="w-full h-full absolute top-0 left-0 rounded-md"
+        className="w-full h-full absolute top-0 left-0 rounded-md brightness-75"
         style={{
           backgroundImage: `url("${image}")`,
           backgroundRepeat: "no-repeat",

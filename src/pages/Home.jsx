@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div>
       <ImageBanner src={bannerImgs.image1} />
-      <div className="w-[80%] mx-auto flex gap-16 justify-center">
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
         {popularItem.map((item) => {
           return (
             <div key={item.id} onClick={() => findId(item.id)}>
@@ -26,10 +26,55 @@ const Home = () => {
         })}
       </div>
       <ImageBanner src={bannerImgs.image2} />
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
+        {popularItem.map((item) => {
+          return (
+            <div key={item.id} onClick={() => findId(item.id)}>
+              <Card data={item} />
+            </div>
+          );
+        })}
+      </div>
       <ImageBanner src={bannerImgs.image3} />
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
+        {popularItem.map((item) => {
+          return (
+            <div key={item.id} onClick={() => findId(item.id)}>
+              <Card data={item} />
+            </div>
+          );
+        })}
+      </div>
       <ImageBanner src={bannerImgs.image4} />
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
+        {popularItem.map((item) => {
+          return (
+            <div key={item.id} onClick={() => findId(item.id)}>
+              <Card data={item} />
+            </div>
+          );
+        })}
+      </div>
       <ImageBanner src={bannerImgs.image5} />
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
+        {popularItem.map((item) => {
+          return (
+            <div key={item.id} onClick={() => findId(item.id)}>
+              <Card data={item} />
+            </div>
+          );
+        })}
+      </div>
       <ImageBanner src={bannerImgs.image6} />
+      <div className="container mx-auto flex flex-wrap justify-between px-[200px] max-sm:px-6 max-sm:justify-center">
+        {popularItem.map((item) => {
+          return (
+            <div key={item.id} onClick={() => findId(item.id)}>
+              <Card data={item} />
+            </div>
+          );
+        })}
+      </div>
       <Modal modal={isModal} setModal={setIsModal} data={isfilter} />
     </div>
   );
